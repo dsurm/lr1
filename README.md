@@ -24,10 +24,10 @@ DISCLAIMER
 
 При использовании данного решения в бою - требуется сменить креды, хранящиеся в файлах переменных окружения:
 ```
-./config/pg_arbitrator/example.env
-./config/pg_master/example.env
-./config/pg_slave/example.env
-./config/pg_test/example.env
+./config/pg_arbitrator/.env
+./config/pg_master/.env
+./config/pg_slave/.env
+./config/pg_test/.env
 ```
 
 ## Запуск
