@@ -4,7 +4,7 @@
 1.	pg_arbitrator – арбитр;
 2.	pg_master – мастер;
 3.	pg_slave - слейв;
-4.  pg_test - тестировщик pg_master и pg_slave;
+4.  pg_test - тестировщик pg_master;
 
 В качестве базового образа для контейнеров pg_master, pg_slave, pg_test используется bitnami/postgresql:16.3.0 (https://github.com/bitnami/containers/blob/main/bitnami/postgresql/README.md).
 
