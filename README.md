@@ -59,7 +59,7 @@ curl http://127.0.0.1:8080
 
 
 P.S.
-Логи healthcheck-а не пишутся в stdout по умолчанию, отдельно их можно посмотреть с помощью команды:
+Логи healthcheck-а не пишутся в stdout, их можно посмотреть с помощью команды:
 ```
 docker inspect --format "{{json .State.Health }}" <container_name>
 ```
